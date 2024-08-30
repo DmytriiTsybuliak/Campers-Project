@@ -22,10 +22,13 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: baseline;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  height: 100vh; /* Устанавливает высоту body на всю высоту окна */
+  width: 100vw; /* Устанавливает ширину body на всю ширину окна */
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   font-family: sans-serif;
   line-height: 1.5;
 }

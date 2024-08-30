@@ -1,0 +1,21 @@
+.main {
+  /* height: 696px;
+  background-image: url('../../assets/mainBox.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  background-image: url('../src/assets/mainBox.png');
+  background-repeat: no-repeat;
+  background-size: cover; /* Изображение покрывает весь body, сохраняя пропорции */
+  background-position: center; /* Центрирует изображение по оси X и Y */
+  height: 100vh; /* Устанавливает высоту body на всю высоту окна */
+  width: 100vw; /* Устанавливает ширину body на всю ширину окна */
+  /* padding: 64px 32px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
